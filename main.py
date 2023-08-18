@@ -20,19 +20,6 @@ import webbrowser
 from tempfile import NamedTemporaryFile
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QScrollArea, QTableWidget, QVBoxLayout, QTableWidgetItem
-import matplotlib.pyplot as plt
-import tkinter as tk
-from tkinter import ttk
-from tkinter import messagebox as mess
-import tkinter.simpledialog as tsd
-import cv2,os
-import csv
-import numpy as np
-from PIL import Image
-import pandas as pd
-import datetime
-import time
-
 
 # Make database and users table(if doesn't already exist)
 with sql.connect('faculty.db') as db:
